@@ -1,0 +1,27 @@
+{
+  "name": "mage-ps/review",
+  "description": "Magento2 module for validating nickname name while submitting review",
+  "type": "magento2-module",
+  "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+  ],
+  "authors": [
+      {
+          "name": "Prakul Sharma",
+          "email": "prakulsharma321@gmail.com"
+      }
+  ],
+  "version": "1.0.0",
+  "require": {
+      "php": "^7.4"
+  },
+  "autoload": {
+      "files": [
+          "registration.php"
+      ],
+      "psr-4": {
+          "Ps\\Review\\": ""
+      }
+  }    
+}
